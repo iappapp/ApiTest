@@ -1,0 +1,8 @@
+numpy==1.24.3
+Pillow==9.5.0
+Pygments==2.15.1
+Pypubsub==4.0.3
+robotframework==5.0
+robotframework-ride==1.7.4.2
+six==1.16.0
+wxPython==4.0.7.post2
