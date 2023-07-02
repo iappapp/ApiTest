@@ -1,1 +1,1 @@
-from ApiTestLib.scripts.ApiTestOne import ApiTestOne
+from ApiTestLib.scripts.test_one import ApiTestOne
