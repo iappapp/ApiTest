@@ -1,5 +1,7 @@
 *** Settings ***
-Library           ApiTestLib
+Test Setup           setup_api_test_one
+Test Teardown        teardown_api_test_one
+Library         ApiTestLib
 
 *** Test Cases ***
 01-01-01test_one
