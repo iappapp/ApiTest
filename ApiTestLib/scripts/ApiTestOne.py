@@ -16,6 +16,7 @@ class ApiTestOne(object):
     # @keyword('test_one')
     def test_one(self):
         print('hello')
+        print("i run the test unit")
 
     def test_my_case(self):
         pass

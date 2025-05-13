@@ -79,7 +79,11 @@ class ApiTestLib(object):
 if __name__ == '__main__':
     test = ApiTestLib()
     print('\n'.join(test.get_keyword_names()))
-    getattr(test, 'test_one')
+    attr = getattr(test, 'test_one')
+    print(type(attr))
+    attr()
+
 
     for item in dir(test):
-        print(item)
+        #print(item)
+        pass
